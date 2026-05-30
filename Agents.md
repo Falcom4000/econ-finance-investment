@@ -8,17 +8,7 @@
 - Mishkin, *The Economics of Money, Banking and Financial Markets, 13th Global Edition*
 - Mishkin & Eakins, *Financial Markets and Institutions, 10th Global Edition*
 
-边界：
-
-- 不学习市场微观结构专题。
-- 不展开订单簿、盘口、bid-ask spread、做市算法、高频交易、最优执行。
-- 重点建立宏观、货币、银行、央行、金融市场、金融机构与国际金融的主干框架。
-
-分节原则：
-
-- 概念入口章可以少分节，避免人为拆碎。
-- 机制复杂章可以多分节，保证逻辑链条完整。
-- 重复内容不机械重复：前面讲原理，后面讲市场、机构和应用形态。
+参考写作规则： WRITING_GUIDE.md
 
 ## 第一部分：经济学底座
 
