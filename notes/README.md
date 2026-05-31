@@ -1,10 +1,28 @@
 # 金融主干框架学习笔记
 
-本目录由 `AGENT.md` 生成。每节一个 Markdown 文档，正文应按原教材逻辑深度改写。
+本目录是金融主干框架的统一学习入口，已合并原 `Agents.md` 的课程目录、参考书、原书位置和学习执行原则。每节一个 Markdown 文档，正文按原教材逻辑深度改写。
+
+参考书：
+
+- Mankiw, *Principles of Economics, 10e*
+- Mishkin, *The Economics of Money, Banking and Financial Markets, 13th Global Edition*
+- Mishkin & Eakins, *Financial Markets and Institutions, 10th Global Edition*
+- Bodie, Kane & Marcus, *Investments, 13e*
+
+参考写作规则：[`../WRITING_GUIDE.md`](../WRITING_GUIDE.md)
+
+学习执行原则：
+
+- 按 1-35 章连续推进，不跳过第二十章之后的行业地图和第二十八章之后的投资学模块。
+- 每章学习目标是抓住主干概念、关键机制、典型例子和与前后章节的关系。
+- 不以读完原书为目标，而以能复述机制、解释现实金融现象为目标。
+- 遇到重复内容时保留不同层次：前面章节学原理，后面章节学市场和机构形态。
 
 ## 第一部分：经济学底座
 
 ### 第 1 章 稀缺、选择与经济学方法
+
+原书位置：Mankiw Ch.1, Ch.2；Mishkin《货币金融学》Ch.1；Mishkin/Eakins Ch.1。
 
 - [1.1 稀缺、选择与机会成本](ch01-scarcity-choice-method/01.01.md)
 - [1.2 边际思维、激励与权衡取舍](ch01-scarcity-choice-method/01.02.md)
@@ -13,6 +31,8 @@
 - [1.5 金融为什么是跨时间、跨主体的资源配置](ch01-scarcity-choice-method/01.05.md)
 
 ### 第 2 章 市场供求、价格与福利
+
+原书位置：Mankiw Ch.4, Ch.5, Ch.6, Ch.7, Ch.8, Ch.10, Ch.11。
 
 - [2.1 需求、供给与市场均衡](ch02-supply-demand-welfare/02.01.md)
 - [2.2 弹性与政策效果](ch02-supply-demand-welfare/02.02.md)
@@ -25,6 +45,8 @@
 
 ### 第 3 章 国民收入、物价与失业
 
+原书位置：Mankiw Ch.24, Ch.25, Ch.29；Mishkin《货币金融学》Ch.1 Appendix。
+
 - [3.1 GDP 的定义、口径与局限](ch03-income-prices-unemployment/03.01.md)
 - [3.2 支出法：消费、投资、政府购买、净出口](ch03-income-prices-unemployment/03.02.md)
 - [3.3 名义变量、实际变量与价格指数](ch03-income-prices-unemployment/03.03.md)
@@ -32,6 +54,8 @@
 - [3.5 失业率、劳动参与率与统计口径](ch03-income-prices-unemployment/03.05.md)
 
 ### 第 4 章 长期增长、储蓄投资与金融体系
+
+原书位置：Mankiw Ch.26, Ch.27, Ch.28；Mishkin《货币金融学》Ch.2。
 
 - [4.1 生产率与长期增长](ch04-growth-saving-investment/04.01.md)
 - [4.2 储蓄、投资与资本形成](ch04-growth-saving-investment/04.02.md)
@@ -43,6 +67,8 @@
 
 ### 第 5 章 金融系统总览
 
+原书位置：Mishkin《货币金融学》Ch.2；Mishkin/Eakins Ch.2；Mankiw Ch.27。
+
 - [5.1 金融市场的功能](ch05-financial-system-overview/05.01.md)
 - [5.2 直接融资与间接融资](ch05-financial-system-overview/05.02.md)
 - [5.3 债务市场、股权市场与金融工具](ch05-financial-system-overview/05.03.md)
@@ -51,6 +77,8 @@
 - [5.6 金融中介、监管与金融系统地图](ch05-financial-system-overview/05.06.md)
 
 ### 第 6 章 货币、支付体系与货币衡量
+
+原书位置：Mishkin《货币金融学》Ch.3；Mankiw Ch.30；Mishkin/Eakins Ch.1 中加密货币案例。
 
 - [6.1 货币的定义与三大职能](ch06-money-payments-measurement/06.01.md)
 - [6.2 商品货币、法币、支票与电子支付](ch06-money-payments-measurement/06.02.md)
@@ -62,6 +90,8 @@
 
 ### 第 7 章 利率、现值与债券定价
 
+原书位置：Mishkin《货币金融学》Ch.4；Mishkin/Eakins Ch.3；Mankiw Ch.28。
+
 - [7.1 利率的经济含义](ch07-interest-present-value/07.01.md)
 - [7.2 现值、贴现与跨期价值](ch07-interest-present-value/07.02.md)
 - [7.3 简单贷款、固定支付贷款、息票债、贴现债](ch07-interest-present-value/07.03.md)
@@ -70,6 +100,8 @@
 - [7.6 回报率、久期直觉与利率风险](ch07-interest-present-value/07.06.md)
 
 ### 第 8 章 利率决定、风险结构与期限结构
+
+原书位置：Mishkin《货币金融学》Ch.5, Ch.6；Mishkin/Eakins Ch.4, Ch.5。
 
 - [8.1 资产需求：财富、预期收益、风险、流动性](ch08-interest-risk-term-structure/08.01.md)
 - [8.2 债券市场供求与均衡利率](ch08-interest-risk-term-structure/08.02.md)
@@ -80,6 +112,8 @@
 - [8.7 收益率曲线的宏观含义](ch08-interest-risk-term-structure/08.07.md)
 
 ### 第 9 章 股票市场、预期与有效市场
+
+原书位置：Mishkin《货币金融学》Ch.7；Mishkin/Eakins Ch.6, Ch.13。
 
 - [9.1 普通股、优先股与股东权利](ch09-stocks-expectations-efficiency/09.01.md)
 - [9.2 一期估值模型、股利贴现模型与戈登增长模型](ch09-stocks-expectations-efficiency/09.02.md)
@@ -93,6 +127,8 @@
 
 ### 第 10 章 金融机构为何存在
 
+原书位置：Mishkin《货币金融学》Ch.8；Mishkin/Eakins Ch.7。
+
 - [10.1 金融结构的基本事实](ch10-why-financial-institutions-exist/10.01.md)
 - [10.2 交易成本与规模经济](ch10-why-financial-institutions-exist/10.02.md)
 - [10.3 信息不对称](ch10-why-financial-institutions-exist/10.03.md)
@@ -101,6 +137,8 @@
 - [10.6 债务契约、抵押品与金融中介的价值](ch10-why-financial-institutions-exist/10.06.md)
 
 ### 第 11 章 银行经营与银行资产负债表
+
+原书位置：Mishkin《货币金融学》Ch.9；Mishkin/Eakins Ch.17。
 
 - [11.1 银行资产负债表](ch11-banking-balance-sheet/11.01.md)
 - [11.2 银行如何创造流动性](ch11-banking-balance-sheet/11.02.md)
@@ -112,6 +150,8 @@
 
 ### 第 12 章 金融监管与银行业结构
 
+原书位置：Mishkin《货币金融学》Ch.10, Ch.11；Mishkin/Eakins Ch.18, Ch.19。
+
 - [12.1 金融监管的经济学理由](ch12-regulation-banking-structure/12.01.md)
 - [12.2 存款保险、政府安全网与道德风险](ch12-regulation-banking-structure/12.02.md)
 - [12.3 资本要求、审慎监管与信息披露](ch12-regulation-banking-structure/12.03.md)
@@ -121,6 +161,8 @@
 - [12.7 大而不能倒与危机后的监管改革](ch12-regulation-banking-structure/12.07.md)
 
 ### 第 13 章 金融危机机制
+
+原书位置：Mishkin《货币金融学》Ch.12, Ch.13；Mishkin/Eakins Ch.8, Additional Ch.25。
 
 - [13.1 金融危机的定义：信息问题和信用中断](ch13-financial-crises/13.01.md)
 - [13.2 初始冲击：资产价格下跌、不确定性上升、资产负债表恶化](ch13-financial-crises/13.02.md)
@@ -134,6 +176,8 @@
 
 ### 第 14 章 中央银行与货币供给
 
+原书位置：Mishkin《货币金融学》Ch.14, Ch.15；Mankiw Ch.30；Mishkin/Eakins Ch.9。
+
 - [14.1 中央银行的起源、功能与独立性](ch14-central-banks-money-supply/14.01.md)
 - [14.2 中央银行资产负债表](ch14-central-banks-money-supply/14.02.md)
 - [14.3 货币基础、现金与准备金](ch14-central-banks-money-supply/14.03.md)
@@ -142,6 +186,8 @@
 - [14.6 货币供给过程的现实限制](ch14-central-banks-money-supply/14.06.md)
 
 ### 第 15 章 货币政策工具
+
+原书位置：Mishkin《货币金融学》Ch.16；Mishkin/Eakins Ch.10。
 
 - [15.1 准备金市场与政策利率控制](ch15-monetary-policy-tools/15.01.md)
 - [15.2 公开市场操作](ch15-monetary-policy-tools/15.02.md)
@@ -152,6 +198,8 @@
 
 ### 第 16 章 货币政策战略
 
+原书位置：Mishkin《货币金融学》Ch.17；Mishkin/Eakins Ch.10。
+
 - [16.1 价格稳定与名义锚](ch16-monetary-policy-strategy/16.01.md)
 - [16.2 通胀目标制与平均通胀目标制](ch16-monetary-policy-strategy/16.02.md)
 - [16.3 就业、产出、增长与金融稳定目标](ch16-monetary-policy-strategy/16.03.md)
@@ -161,6 +209,8 @@
 - [16.7 央行是否应对资产价格泡沫作出反应](ch16-monetary-policy-strategy/16.07.md)
 
 ### 第 17 章 货币理论、总需求总供给与政策传导
+
+原书位置：Mishkin《货币金融学》Ch.20-Ch.26；Mankiw Ch.31, Ch.34-Ch.36。
 
 - [17.1 数量论、货币增长与长期通胀](ch17-monetary-theory-ad-as-transmission/17.01.md)
 - [17.2 货币需求理论](ch17-monetary-theory-ad-as-transmission/17.02.md)
@@ -175,6 +225,8 @@
 
 ### 第 18 章 外汇市场与汇率决定
 
+原书位置：Mishkin《货币金融学》Ch.18；Mishkin/Eakins Ch.15；Mankiw Ch.32。
+
 - [18.1 外汇市场与汇率报价](ch18-foreign-exchange/18.01.md)
 - [18.2 名义汇率、实际汇率与竞争力](ch18-foreign-exchange/18.02.md)
 - [18.3 一价定律与购买力平价](ch18-foreign-exchange/18.03.md)
@@ -184,6 +236,8 @@
 - [18.7 汇率变动对经济和金融市场的影响](ch18-foreign-exchange/18.07.md)
 
 ### 第 19 章 国际金融体系
+
+原书位置：Mishkin《货币金融学》Ch.19；Mishkin/Eakins Ch.16；Mankiw Ch.32, Ch.33。
 
 - [19.1 国际收支与资本流动](ch19-international-financial-system/19.01.md)
 - [19.2 固定汇率、浮动汇率与管理浮动](ch19-international-financial-system/19.02.md)
@@ -197,6 +251,8 @@
 
 ### 第 20 章 货币市场：短期资金市场
 
+原书位置：Mishkin/Eakins Ch.11；Mishkin《货币金融学》Ch.2 中货币市场工具。
+
 - [20.1 货币市场的定义、功能与参与者](ch20-money-markets/20.01.md)
 - [20.2 国库券、联邦基金与回购协议](ch20-money-markets/20.02.md)
 - [20.3 大额可转让存单、商业票据、银行承兑汇票](ch20-money-markets/20.03.md)
@@ -205,6 +261,8 @@
 - [20.6 货币市场基金与流动性危机](ch20-money-markets/20.06.md)
 
 ### 第 21 章 债券市场：利率与信用市场
+
+原书位置：Mishkin/Eakins Ch.12；Mishkin《货币金融学》Ch.4-Ch.6。
 
 - [21.1 债券市场的功能、参与者与交易逻辑](ch21-bond-markets/21.01.md)
 - [21.2 国债、机构债、市政债](ch21-bond-markets/21.02.md)
@@ -215,6 +273,8 @@
 
 ### 第 22 章 股票市场：股权融资与估值市场
 
+原书位置：Mishkin/Eakins Ch.13；Mishkin《货币金融学》Ch.7。
+
 - [22.1 股票市场的功能](ch22-stock-markets/22.01.md)
 - [22.2 普通股、优先股与股东权利](ch22-stock-markets/22.02.md)
 - [22.3 IPO、增发与股票发行](ch22-stock-markets/22.03.md)
@@ -222,6 +282,8 @@
 - [22.5 股票指数、海外股票与证券监管](ch22-stock-markets/22.05.md)
 
 ### 第 23 章 抵押贷款市场与证券化
+
+原书位置：Mishkin/Eakins Ch.14；Mishkin《货币金融学》Ch.12 中 2007-2009 危机、CDO、CDS 案例。
 
 - [23.1 抵押贷款的定义与特征](ch23-mortgage-markets-securitization/23.01.md)
 - [23.2 固定利率房贷、可调利率房贷与其他房贷类型](ch23-mortgage-markets-securitization/23.02.md)
@@ -232,6 +294,8 @@
 
 ### 第 24 章 共同基金、ETF 与资产管理
 
+原书位置：Mishkin/Eakins Ch.20；Mankiw Ch.27；Mishkin《货币金融学》Ch.2 中投资中介。
+
 - [24.1 共同基金的功能与行业增长](ch24-mutual-funds-etf-asset-management/24.01.md)
 - [24.2 开放式基金与封闭式基金](ch24-mutual-funds-etf-asset-management/24.02.md)
 - [24.3 净资产价值 NAV、申购赎回与费用结构](ch24-mutual-funds-etf-asset-management/24.03.md)
@@ -240,6 +304,8 @@
 - [24.6 对冲基金、利益冲突与基金行业监管](ch24-mutual-funds-etf-asset-management/24.06.md)
 
 ### 第 25 章 保险公司、养老金与长期资金
+
+原书位置：Mishkin/Eakins Ch.21；Mishkin《货币金融学》Ch.2 中契约型储蓄机构。
 
 - [25.1 保险公司的基本功能](ch25-insurance-pensions/25.01.md)
 - [25.2 逆向选择、道德风险与保险定价](ch25-insurance-pensions/25.02.md)
@@ -250,6 +316,8 @@
 
 ### 第 26 章 投行、券商、交易商与 PE/VC
 
+原书位置：Mishkin/Eakins Ch.22；Mishkin《货币金融学》Ch.2 中金融中介类型。
+
 - [26.1 投资银行的功能](ch26-investment-banks-brokers-pe-vc/26.01.md)
 - [26.2 承销：IPO、增发与债券发行](ch26-investment-banks-brokers-pe-vc/26.02.md)
 - [26.3 并购顾问、重组与企业融资服务](ch26-investment-banks-brokers-pe-vc/26.03.md)
@@ -259,6 +327,8 @@
 
 ### 第 27 章 金融机构风险管理与金融衍生品
 
+原书位置：Mishkin/Eakins Ch.23, Ch.24；Mishkin《货币金融学》MyLab Additional Chapter: Financial Derivatives。
+
 - [27.1 金融机构面临的主要风险](ch27-risk-management-derivatives/27.01.md)
 - [27.2 信用风险管理：筛选、监督、抵押品与限额](ch27-risk-management-derivatives/27.02.md)
 - [27.3 利率风险管理：收入缺口与久期缺口](ch27-risk-management-derivatives/27.03.md)
@@ -266,3 +336,100 @@
 - [27.5 远期、期货、期权、互换](ch27-risk-management-derivatives/27.05.md)
 - [27.6 衍生品的功能：套期保值、投机、套利、风险转移](ch27-risk-management-derivatives/27.06.md)
 - [27.7 金融衍生品、杠杆与系统性风险](ch27-risk-management-derivatives/27.07.md)
+
+## 第九部分：投资学与组合管理
+
+### 第 28 章 投资环境、金融工具与交易制度
+
+原书位置：Bodie/Kane/Marcus《Investments》Ch.1-Ch.4；相关旧笔记：本笔记 Ch.5, Ch.20-Ch.24。
+
+- [28.1 投资过程、实物资产与金融资产](ch28-investment-environment-instruments/28.01.md)
+- [28.2 货币市场工具与短期安全资产](ch28-investment-environment-instruments/28.02.md)
+- [28.3 债券、股票与市场指数](ch28-investment-environment-instruments/28.03.md)
+- [28.4 衍生证券在投资环境中的角色](ch28-investment-environment-instruments/28.04.md)
+- [28.5 证券如何交易](ch28-investment-environment-instruments/28.05.md)
+- [28.6 共同基金、ETF 与投资公司](ch28-investment-environment-instruments/28.06.md)
+
+### 第 29 章 风险、收益与资本配置
+
+原书位置：Bodie/Kane/Marcus《Investments》Ch.5-Ch.6；相关旧笔记：本笔记 Ch.7-Ch.9。
+
+- [29.1 收益率的度量](ch29-risk-return-capital-allocation/29.01.md)
+- [29.2 风险溢价与历史记录](ch29-risk-return-capital-allocation/29.02.md)
+- [29.3 风险、波动率与收益分布](ch29-risk-return-capital-allocation/29.03.md)
+- [29.4 风险厌恶、效用与投资者选择](ch29-risk-return-capital-allocation/29.04.md)
+- [29.5 风险资产与无风险资产之间的资本配置](ch29-risk-return-capital-allocation/29.05.md)
+- [29.6 最优风险资产组合与资本配置线](ch29-risk-return-capital-allocation/29.06.md)
+
+### 第 30 章 投资组合理论与指数模型
+
+原书位置：Bodie/Kane/Marcus《Investments》Ch.7-Ch.8；相关旧笔记：本笔记 Ch.8, Ch.9, Ch.24。
+
+- [30.1 分散化与组合风险](ch30-portfolio-theory-index-models/30.01.md)
+- [30.2 两种风险资产的组合](ch30-portfolio-theory-index-models/30.02.md)
+- [30.3 有效边界与 Markowitz 投资组合优化](ch30-portfolio-theory-index-models/30.03.md)
+- [30.4 无风险资产、最优风险组合与分离定理](ch30-portfolio-theory-index-models/30.04.md)
+- [30.5 单指数模型：系统性风险与公司特有风险](ch30-portfolio-theory-index-models/30.05.md)
+- [30.6 用指数模型构建最优组合](ch30-portfolio-theory-index-models/30.06.md)
+- [30.7 Alpha、信息比率与证券分析](ch30-portfolio-theory-index-models/30.07.md)
+
+### 第 31 章 资产定价、市场效率与行为金融
+
+原书位置：Bodie/Kane/Marcus《Investments》Ch.9-Ch.13；相关旧笔记：本笔记 Ch.9。
+
+- [31.1 CAPM 与证券市场线](ch31-asset-pricing-market-efficiency/31.01.md)
+- [31.2 CAPM 的扩展、限制与实证问题](ch31-asset-pricing-market-efficiency/31.02.md)
+- [31.3 APT 与多因子风险模型](ch31-asset-pricing-market-efficiency/31.03.md)
+- [31.4 Fama-French 模型与风险因子](ch31-asset-pricing-market-efficiency/31.04.md)
+- [31.5 有效市场假说的形式与证据](ch31-asset-pricing-market-efficiency/31.05.md)
+- [31.6 行为金融与技术分析](ch31-asset-pricing-market-efficiency/31.06.md)
+- [31.7 证券收益的经验事实](ch31-asset-pricing-market-efficiency/31.07.md)
+
+### 第 32 章 固定收益证券与债券组合管理
+
+原书位置：Bodie/Kane/Marcus《Investments》Ch.14-Ch.16；相关旧笔记：本笔记 Ch.7, Ch.8, Ch.21。
+
+- [32.1 债券价格、收益率与回报](ch32-fixed-income-portfolio-management/32.01.md)
+- [32.2 债券契约、赎回条款与违约风险](ch32-fixed-income-portfolio-management/32.02.md)
+- [32.3 利率期限结构](ch32-fixed-income-portfolio-management/32.03.md)
+- [32.4 久期、凸性与利率风险](ch32-fixed-income-portfolio-management/32.04.md)
+- [32.5 债券免疫与资产负债匹配](ch32-fixed-income-portfolio-management/32.05.md)
+- [32.6 积极债券管理](ch32-fixed-income-portfolio-management/32.06.md)
+- [32.7 信用风险与债券安全性](ch32-fixed-income-portfolio-management/32.07.md)
+
+### 第 33 章 宏观行业分析与股票估值
+
+原书位置：Bodie/Kane/Marcus《Investments》Ch.17-Ch.19；相关旧笔记：本笔记 Ch.9, Ch.22。
+
+- [33.1 宏观经济分析与行业分析](ch33-equity-analysis-valuation/33.01.md)
+- [33.2 经济周期、行业结构与公司竞争地位](ch33-equity-analysis-valuation/33.02.md)
+- [33.3 股利贴现模型](ch33-equity-analysis-valuation/33.03.md)
+- [33.4 自由现金流估值](ch33-equity-analysis-valuation/33.04.md)
+- [33.5 市盈率与相对估值](ch33-equity-analysis-valuation/33.05.md)
+- [33.6 财务报表分析与盈利能力](ch33-equity-analysis-valuation/33.06.md)
+- [33.7 会计质量、增长率与权益估值误差](ch33-equity-analysis-valuation/33.07.md)
+
+### 第 34 章 期权、期货、互换与风险管理
+
+原书位置：Bodie/Kane/Marcus《Investments》Ch.20-Ch.23；相关旧笔记：本笔记 Ch.27。
+
+- [34.1 期权市场与期权收益结构](ch34-options-futures-risk-management/34.01.md)
+- [34.2 期权策略、保护性看跌与备兑看涨](ch34-options-futures-risk-management/34.02.md)
+- [34.3 看跌-看涨平价与期权边界](ch34-options-futures-risk-management/34.03.md)
+- [34.4 二叉树期权定价](ch34-options-futures-risk-management/34.04.md)
+- [34.5 Black-Scholes 期权定价](ch34-options-futures-risk-management/34.05.md)
+- [34.6 期货价格、基差与套期保值](ch34-options-futures-risk-management/34.06.md)
+- [34.7 互换、组合保险与风险管理](ch34-options-futures-risk-management/34.07.md)
+
+### 第 35 章 应用投资组合管理
+
+原书位置：Bodie/Kane/Marcus《Investments》Ch.24-Ch.28；相关旧笔记：本笔记 Ch.24-Ch.27。
+
+- [35.1 投资绩效评价](ch35-applied-portfolio-management/35.01.md)
+- [35.2 风格分析与绩效归因](ch35-applied-portfolio-management/35.02.md)
+- [35.3 国际分散化](ch35-applied-portfolio-management/35.03.md)
+- [35.4 另类资产：对冲基金、私募股权与实物资产](ch35-applied-portfolio-management/35.04.md)
+- [35.5 主动投资管理：Alpha 与 Treynor-Black](ch35-applied-portfolio-management/35.05.md)
+- [35.6 Black-Litterman 模型](ch35-applied-portfolio-management/35.06.md)
+- [35.7 投资政策、目标与约束](ch35-applied-portfolio-management/35.07.md)
+- [35.8 机构投资者、个人投资者与 CFA 框架](ch35-applied-portfolio-management/35.08.md)
