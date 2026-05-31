@@ -8,12 +8,13 @@
 - Mishkin, *The Economics of Money, Banking and Financial Markets, 13th Global Edition*
 - Mishkin & Eakins, *Financial Markets and Institutions, 10th Global Edition*
 - Bodie, Kane & Marcus, *Investments, 13e*
+- Paleologo, *The Elements of Quantitative Investing*
 
 参考写作规则：[`../WRITING_GUIDE.md`](../WRITING_GUIDE.md)
 
 学习执行原则：
 
-- 按 1-35 章连续推进，不跳过第二十章之后的行业地图和第二十八章之后的投资学模块。
+- 按 1-49 章连续推进，不跳过第二十章之后的行业地图、第二十八章之后的投资学模块和第三十六章之后的量化投资模块。
 - 每章学习目标是抓住主干概念、关键机制、典型例子和与前后章节的关系。
 - 不以读完原书为目标，而以能复述机制、解释现实金融现象为目标。
 - 遇到重复内容时保留不同层次：前面章节学原理，后面章节学市场和机构形态。
@@ -433,3 +434,151 @@
 - [35.6 Black-Litterman 模型](ch35-applied-portfolio-management/35.06.md)
 - [35.7 投资政策、目标与约束](ch35-applied-portfolio-management/35.07.md)
 - [35.8 机构投资者、个人投资者与 CFA 框架](ch35-applied-portfolio-management/35.08.md)
+
+## 第十部分：量化投资与系统化组合管理
+
+### 第 36 章 量化投资地图
+
+原书位置：Paleologo《The Elements of Quantitative Investing》Ch.1；相关旧笔记：本笔记 Ch.5, Ch.20-Ch.28。
+
+- [36.1 证券、市场与交易方式](ch36-quant-investing-map/36.01.md)
+- [36.2 买方、卖方与市场参与者](ch36-quant-investing-map/36.02.md)
+- [36.3 超额收益从哪里来](ch36-quant-investing-map/36.03.md)
+- [36.4 量化投资流程：信号、风险、组合与执行](ch36-quant-investing-map/36.04.md)
+
+### 第 37 章 收益率、波动率与单资产建模
+
+原书位置：Paleologo《The Elements of Quantitative Investing》Ch.2；相关旧笔记：本笔记 Ch.29。
+
+- [37.1 收益率、超额收益与对数收益](ch37-returns-volatility/37.01.md)
+- [37.2 价格、收益率估计与数据质量](ch37-returns-volatility/37.02.md)
+- [37.3 金融收益率的经验事实](ch37-returns-volatility/37.03.md)
+- [37.4 GARCH 与条件异方差](ch37-returns-volatility/37.04.md)
+- [37.5 实现波动率、EWMA 与状态空间波动率估计](ch37-returns-volatility/37.05.md)
+- [37.6 Kalman Filter 在波动率估计中的直觉](ch37-returns-volatility/37.06.md)
+
+### 第 38 章 投资绩效的基本度量
+
+原书位置：Paleologo《The Elements of Quantitative Investing》Ch.3；相关旧笔记：本笔记 Ch.29, Ch.35。
+
+- [38.1 期望收益与可投资收益](ch38-performance-basics/38.01.md)
+- [38.2 波动率、风险与风险调整收益](ch38-performance-basics/38.02.md)
+- [38.3 Sharpe Ratio 的含义和局限](ch38-performance-basics/38.03.md)
+- [38.4 策略容量与规模约束](ch38-performance-basics/38.04.md)
+
+### 第 39 章 线性收益模型与因子框架
+
+原书位置：Paleologo《The Elements of Quantitative Investing》Ch.4；相关旧笔记：本笔记 Ch.30, Ch.31。
+
+- [39.1 因子模型的基本形式](ch39-linear-factor-models/39.01.md)
+- [39.2 因子暴露、因子收益与残差收益](ch39-linear-factor-models/39.02.md)
+- [39.3 Alpha、风险因子与正交化](ch39-linear-factor-models/39.03.md)
+- [39.4 旋转、投影与 push-out](ch39-linear-factor-models/39.04.md)
+- [39.5 因子模型在归因、风控和组合管理中的用途](ch39-linear-factor-models/39.05.md)
+- [39.6 常见因子模型类型](ch39-linear-factor-models/39.06.md)
+
+### 第 40 章 风险模型评估
+
+原书位置：Paleologo《The Elements of Quantitative Investing》Ch.5；相关旧笔记：本笔记 Ch.27, Ch.30, Ch.32。
+
+- [40.1 协方差矩阵为什么重要](ch40-risk-model-evaluation/40.01.md)
+- [40.2 波动率和协方差预测的评价](ch40-risk-model-evaluation/40.02.md)
+- [40.3 稳健损失函数与多资产风险评估](ch40-risk-model-evaluation/40.03.md)
+- [40.4 精度矩阵、最小方差组合与 Mahalanobis 距离](ch40-risk-model-evaluation/40.04.md)
+- [40.5 风险模型换手率、Beta 测试与辅助检验](ch40-risk-model-evaluation/40.05.md)
+
+### 第 41 章 基本面因子模型
+
+原书位置：Paleologo《The Elements of Quantitative Investing》Ch.6；相关旧笔记：本笔记 Ch.31, Ch.33。
+
+- [41.1 基本面因子模型的输入和流程](ch41-fundamental-factor-models/41.01.md)
+- [41.2 横截面回归与因子收益估计](ch41-fundamental-factor-models/41.02.md)
+- [41.3 因子协方差矩阵估计与收缩](ch41-fundamental-factor-models/41.03.md)
+- [41.4 短期波动率更新与自相关修正](ch41-fundamental-factor-models/41.04.md)
+- [41.5 特质风险、聚类与协方差收缩](ch41-fundamental-factor-models/41.05.md)
+- [41.6 缩尾、模型连接与货币重定基](ch41-fundamental-factor-models/41.06.md)
+- [41.7 常见基本面因子地图](ch41-fundamental-factor-models/41.07.md)
+
+### 第 42 章 统计因子模型
+
+原书位置：Paleologo《The Elements of Quantitative Investing》Ch.7；相关旧笔记：本笔记 Ch.30, Ch.31。
+
+- [42.1 PCA 与最佳低秩近似](ch42-statistical-factor-models/42.01.md)
+- [42.2 最大似然、SVD 与统计因子估计](ch42-statistical-factor-models/42.02.md)
+- [42.3 Spiked Covariance Model 与特征值收缩](ch42-statistical-factor-models/42.03.md)
+- [42.4 因子数量选择](ch42-statistical-factor-models/42.04.md)
+- [42.5 PCA 在真实市场数据中的行为](ch42-statistical-factor-models/42.05.md)
+- [42.6 主成分解释：聚类视角与回归视角](ch42-statistical-factor-models/42.06.md)
+- [42.7 统计因子模型的生产实现](ch42-statistical-factor-models/42.07.md)
+
+### 第 43 章 Alpha 评价与回测纪律
+
+原书位置：Paleologo《The Elements of Quantitative Investing》Ch.8；相关旧笔记：本笔记 Ch.31, Ch.35。
+
+- [43.1 数据来源、可得性与幸存者偏差](ch43-alpha-backtesting/43.01.md)
+- [43.2 研究流程与实验记录](ch43-alpha-backtesting/43.02.md)
+- [43.3 Cross-validation 与 walk-forward 回测](ch43-alpha-backtesting/43.03.md)
+- [43.4 数据窥探、过拟合与多重检验](ch43-alpha-backtesting/43.04.md)
+- [43.5 Rademacher Anti-Serum 的直觉](ch43-alpha-backtesting/43.05.md)
+- [43.6 历史 anomaly 与实证检验](ch43-alpha-backtesting/43.06.md)
+
+### 第 44 章 基础组合管理
+
+原书位置：Paleologo《The Elements of Quantitative Investing》Ch.9；相关旧笔记：本笔记 Ch.30, Ch.35。
+
+- [44.1 为什么使用均值-方差优化](ch44-basic-portfolio-management/44.01.md)
+- [44.2 均值-方差最优组合](ch44-basic-portfolio-management/44.02.md)
+- [44.3 因子模拟组合与因子空间交易](ch44-basic-portfolio-management/44.03.md)
+- [44.4 新因子的估计、加入与交易](ch44-basic-portfolio-management/44.04.md)
+- [44.5 特质收益空间中的组合管理](ch44-basic-portfolio-management/44.05.md)
+- [44.6 信息系数、分散化与信息比率](ch44-basic-portfolio-management/44.06.md)
+- [44.7 信号聚合与组合聚合](ch44-basic-portfolio-management/44.07.md)
+
+### 第 45 章 约束优化与模型误差
+
+原书位置：Paleologo《The Elements of Quantitative Investing》Ch.10；相关旧笔记：本笔记 Ch.30, Ch.35。
+
+- [45.1 朴素均值-方差优化的问题](ch45-constrained-portfolio-optimization/45.01.md)
+- [45.2 组合约束的类型](ch45-constrained-portfolio-optimization/45.02.md)
+- [45.3 约束、惩罚项与实际可交易性](ch45-constrained-portfolio-optimization/45.03.md)
+- [45.4 约束会改善还是损害表现](ch45-constrained-portfolio-optimization/45.04.md)
+- [45.5 Alpha 误差对 Sharpe Ratio 的影响](ch45-constrained-portfolio-optimization/45.05.md)
+- [45.6 风险模型误差对 Sharpe Ratio 的影响](ch45-constrained-portfolio-optimization/45.06.md)
+
+### 第 46 章 交易成本与市场冲击
+
+原书位置：Paleologo《The Elements of Quantitative Investing》Ch.11；相关旧笔记：本笔记 Ch.27, Ch.28, Ch.35。
+
+- [46.1 市场冲击的基本概念](ch46-transaction-costs-market-impact/46.01.md)
+- [46.2 临时市场冲击与交易成本函数](ch46-transaction-costs-market-impact/46.02.md)
+- [46.3 有限期交易成本感知优化](ch46-transaction-costs-market-impact/46.03.md)
+- [46.4 无限期优化、无冲击极限与最优清算](ch46-transaction-costs-market-impact/46.04.md)
+- [46.5 确定性 alpha 与 AR(1) 信号下的交易](ch46-transaction-costs-market-impact/46.05.md)
+
+### 第 47 章 组合对冲
+
+原书位置：Paleologo《The Elements of Quantitative Investing》Ch.12；相关旧笔记：本笔记 Ch.27, Ch.34。
+
+- [47.1 对冲问题的基本形式](ch47-hedging/47.01.md)
+- [47.2 因子对冲的一般情形](ch47-hedging/47.02.md)
+- [47.3 可交易因子的时间序列 Beta 对冲](ch47-hedging/47.03.md)
+- [47.4 时间序列的因子模拟组合](ch47-hedging/47.04.md)
+
+### 第 48 章 动态风险配置
+
+原书位置：Paleologo《The Elements of Quantitative Investing》Ch.13；相关旧笔记：本笔记 Ch.29, Ch.35。
+
+- [48.1 Kelly Criterion 的基本思想](ch48-dynamic-risk-allocation/48.01.md)
+- [48.2 Kelly 策略的数学性质](ch48-dynamic-risk-allocation/48.02.md)
+- [48.3 Fractional Kelly 与风险缩放](ch48-dynamic-risk-allocation/48.03.md)
+- [48.4 回撤控制与动态风险预算](ch48-dynamic-risk-allocation/48.04.md)
+
+### 第 49 章 事后绩效归因
+
+原书位置：Paleologo《The Elements of Quantitative Investing》Ch.14-Ch.15；相关旧笔记：本笔记 Ch.35。
+
+- [49.1 绩效归因的基本问题](ch49-ex-post-performance-attribution/49.01.md)
+- [49.2 带误差的绩效归因与归因悖论](ch49-ex-post-performance-attribution/49.02.md)
+- [49.3 最大化绩效归因](ch49-ex-post-performance-attribution/49.03.md)
+- [49.4 选股贡献与仓位大小贡献](ch49-ex-post-performance-attribution/49.04.md)
+- [49.5 多空组合绩效归因与全书主题回收](ch49-ex-post-performance-attribution/49.05.md)
